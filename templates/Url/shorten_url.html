@@ -105,7 +105,6 @@
                         'X-CSRFToken': csrf_token, 
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({ short_code: link.dataset.shortCode }),
                 })
                 .then()
                 .then(() => {
